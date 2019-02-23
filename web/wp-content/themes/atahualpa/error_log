@@ -1,0 +1,4 @@
+[11-Feb-2010 20:06:59] PHP Warning:  Invalid argument supplied for foreach() in /home2/essence6/public_html/longlakeyarns/wp-content/themes/atahualpa/index.php on line 3
+[11-Feb-2010 20:06:59] PHP Fatal error:  Call to undefined function  is_page() in /home2/essence6/public_html/longlakeyarns/wp-content/themes/atahualpa/index.php on line 10
+[30-Mar-2011 10:42:25] PHP Warning:  Invalid argument supplied for foreach() in /home2/essence6/public_html/longlakeyarns/wp-content/themes/atahualpa/index.php on line 3
+[30-Mar-2011 10:42:25] PHP Fatal error:  Call to undefined function  is_page() in /home2/essence6/public_html/longlakeyarns/wp-content/themes/atahualpa/index.php on line 10

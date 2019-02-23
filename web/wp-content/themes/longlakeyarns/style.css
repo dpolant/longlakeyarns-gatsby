@@ -1,0 +1,194 @@
+/*
+Theme Name:     Long lake yarns
+Description:    Long lake yarns subtheme
+Author:         Dan Polant
+Author URI:     http://danpolant.com
+Template:       twentyeleven
+Version:        0.1.0
+*/
+
+@import url("../twentyeleven/style.css");
+
+a:focus,
+a:active,
+a:hover,
+.widget a:hover,
+.widget a:focus,
+.widget a:active {
+	text-decoration: none;
+}
+
+#site-title a {
+  color: #fff;
+}
+
+#site-description {
+  color:#eee;
+  font-size:18px;
+  margin:0 0 1.66em 0;
+}
+
+#branding {
+  border-top:none;
+  padding-bottom:0;
+}
+
+#branding #s {
+  color:#777;
+  background:url("../twentyeleven/images/search.png") no-repeat scroll 5px 6px #fff;
+  width:50px;
+}
+
+#branding hgroup {
+  margin:0 5.5%
+}
+
+#branding hgroup h1 {
+  padding:1.66em 0 0;
+}
+
+#branding #searchform {
+  right:4%;
+}
+
+#branding img {
+  margin-bottom: -9px;
+}
+
+body {
+  background:none repeat scroll 0 0 #011A44;
+}
+
+body, input, textarea {
+    font: 300 15px/1.625 "Helvetica",Helvetica,Arial,sans-serif;
+}
+
+header#branding {
+  background:#1F58B7;
+}
+
+#page {
+  max-width:850px;
+  margin:0 auto;
+  box-shadow:0 9px 19px 3px #000000;
+}
+
+#main {
+  padding-top:0;
+}
+
+.entry-title, 
+.singular .entry-title {
+  padding-bottom:0;
+  font-size:22px;
+  line-height:1.3em;
+}
+
+.entry-content {
+  padding:10px 0 0;
+}
+
+.entry-title a {
+  color:#2F4161;  
+}
+
+.entry-title a:hover {
+  color:#222;
+}
+
+.page-title {
+  font-size:16px;
+  margin:0;
+  line-height:normal;
+  margin-top:20px
+}
+
+.singular .hentry {
+  padding:0;
+}
+
+.singular #primary {
+  float: left;
+  margin: 0 -26.4% 0 0;
+  width: 100%;
+}
+
+.singular #content {
+  margin: 0 36% 0 5.6%;
+  width: 64%;
+}
+
+.singular .entry-header, 
+.singular .entry-content, 
+.singular footer.entry-meta, 
+.singular #comments-title {
+  width:100%;
+}
+
+.singular .entry-header .entry-meta {
+  position:relative;
+}
+
+#secondary {
+  width:25.8%;
+  padding:0;
+  margin:0;
+}
+
+#secondary aside {
+  background:#2F4161;
+  padding:10px 15.6% 10px 10px;  
+}
+
+#secondary li {
+  list-style-type:none;
+  border-left:7px solid #fff;
+  margin-bottom:5px;
+  padding:0 0 0 5px;  
+}
+
+#secondary li a{
+  color:#FFD527;
+}
+
+#secondary aside h3 {
+  color:#eee;
+}
+
+.widget {
+  margin:0;
+}
+
+/* =Responsive Structure
+----------------------------------------------- */
+
+/* Reset 800px float model */
+@media (max-width: 800px) {
+  #main #content {
+    margin: 0 34% 0 7.6%;
+    width: 58.4%;
+  }
+  #main #secondary {
+    width:25.8%;
+    padding:0;
+    margin:0;
+    float:right;
+  }  
+}
+
+/* Execute sidebar drop at 650 px instead */
+@media (max-width: 650px) {
+	#main #content {
+		margin: 0 7.6%;
+		width: auto;
+	}
+	#nav-below {
+		border-bottom: 1px solid #ddd;
+		margin-bottom: 1.625em;
+	}
+	#main #secondary {
+		float: none;
+		margin: 0 7.6%;
+		width: auto;
+	}
+}

@@ -1,0 +1,4 @@
+.idea
+*.sql
+*.zip
+web/wp-content/uploads
